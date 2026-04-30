@@ -3,7 +3,7 @@ conda activate chrono9
 source /opt/ros/humble/setup.bash
 
 #Training files to construct an npz that is extracted by the edmd later
-python3 systems/MPC/residual_koopman_compact.py   --world_id 1   --log_glob "logs/mpc_baseline_world1/mpc_hmmwv_world1_*.csv"   --out_dir "logs/koopman_models/s1_clean_snow_3"
+python3 systems/MPC/residual_koopman_train.py   --world_id 1   --log_glob "logs/mpc_baseline_world1/mpc_hmmwv_world1_*.csv"   --out_dir "logs/koopman_models/s1_clean_snow_3"
 
 
 #Execution code for MPC
