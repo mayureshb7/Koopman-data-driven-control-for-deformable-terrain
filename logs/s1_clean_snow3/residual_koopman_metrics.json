@@ -1,0 +1,24 @@
+{
+  "basis_degree": 2,
+  "dt_median": 0.004999999999999893,
+  "fit_rmse_error_state": 0.011859482149146804,
+  "fit_rmse_lifted": 0.006624299604349125,
+  "mean_error_norm_no_comp": 0.3380419320129676,
+  "mean_error_norm_with_comp": 0.3380369631212266,
+  "model_path": "logs/koopman_models/s1_clean_snow3/residual_koopman_model.npz",
+  "n_files": 9,
+  "n_lifted_states": 20,
+  "n_samples": 73066,
+  "source_files": [
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_193254.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_193802.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_195935.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_204253.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_210643.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_213010.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_214212.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_214831.csv",
+    "logs/mpc_baseline_world1/mpc_hmmwv_world1_20260411_220218.csv"
+  ],
+  "world_id": 1
+}
