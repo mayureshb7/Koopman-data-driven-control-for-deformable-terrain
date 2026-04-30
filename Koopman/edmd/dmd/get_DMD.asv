@@ -1,0 +1,19 @@
+function DMD = get_DMD(X1,X2)
+% Complete this function to perform Dynamic mode decomposition
+% Inputs
+% X1        : snapshots of data from i = 0 to m-1
+% X2        : sanpshots of data from i = 1 to m
+% Outputs
+% DMD       : n x n Koopman operator
+
+%Steps to follow in DMD - DATA-DRIVEN IDENTIFICATION OF LINEAR SYSTEMS
+
+%1. SVD
+[U, S, V] = svd(X1,'econ');
+tolerance = max(length(X1)*eps(max(diag(S))));
+r = sum(diag(S)>tolerance);
+
+U_rank
+%2. Projecting dynamics
+   
+end
