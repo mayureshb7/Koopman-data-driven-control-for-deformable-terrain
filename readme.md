@@ -1,3 +1,5 @@
 Koopman-data-driven-control-for-deformable-terrain
 
-<video src="MPC vs RKMPC.mp4" controls width="100%"></video>
+## Demo
+
+<video src="./MPC%20vs%20RKMPC.mp4" controls width="100%"></video>
